@@ -1,12 +1,18 @@
 # Deterministic System Specification
 
-Version 0.1  
+Version 1.0  
 Status: Stable  
-Date: 2026-02-15  
+Date: 2026-03-01  
 Author: Jan Zdráhal  
+ORCID: https://orcid.org/0009-0005-2012-1234  
 
 Copyright (c) 2026 Jan Zdráhal  
 Licensed under the MIT License.  
+
+## Supersession Notice
+
+Version 1.0 supersedes version 0.1 of the Deterministic System Specification.
+No normative semantic changes were introduced.
 
 ## 1. Scope
 
