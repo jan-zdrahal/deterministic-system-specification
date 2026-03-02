@@ -5,6 +5,7 @@ Status: Stable
 Date: 2026-03-01  
 Author: Jan Zdráhal  
 ORCID: https://orcid.org/0009-0005-2012-1234  
+DOI: https://doi.org/10.5281/zenodo.18830029  
 
 Copyright (c) 2026 Jan Zdráhal  
 Licensed under the MIT License.  
