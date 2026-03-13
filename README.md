@@ -1,5 +1,9 @@
 # Deterministic System Specification
 
+Author: Jan Zdráhal  
+ORCID: https://orcid.org/0009-0005-2012-1234  
+DOI: https://doi.org/10.5281/zenodo.18830029  
+
 ## Overview
 
 The Deterministic System Specification defines the abstract transition semantics of deterministic state-transition systems.
