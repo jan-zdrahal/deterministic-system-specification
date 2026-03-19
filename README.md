@@ -1,56 +1,91 @@
 # Deterministic System Specification
 
+Version: 1.0  
+Status: Stable  
+Date: 2026-03-14  
+
 Author: Jan Zdráhal  
 ORCID: https://orcid.org/0009-0005-2012-1234  
 DOI: https://doi.org/10.5281/zenodo.18830029  
 
+---
+
 ## Overview
 
-The Deterministic System Specification defines the abstract transition semantics of deterministic state-transition systems.
+The Deterministic System Specification (DSS) defines a formal, architecture-neutral model of deterministic state-transition systems.
 
-It provides a formal, architecture-neutral model based on a relational state-transition structure governed by axioms of totality and uniqueness.
+It establishes a relational transition framework governed by strict structural axioms ensuring determinism, consistency, and reproducibility.
 
-The specification defines:
+---
 
-- The deterministic system model (DS = (S, I, R, Valid))
-- Structural axioms governing state transitions
-- A determinism invariant
-- Execution semantics
-- Conformance conditions
+## Conceptual Structure
 
-The specification is purely abstract and does not define encoding formats, storage models, execution environments, concurrency models, or any notion of time.
+The specification is organized into the following conceptual layers:
 
-## Motivation
+### 1. Formal Model
 
-Deterministic systems are often described operationally or implementation-first.  
-This specification establishes a minimal formal foundation based on relational semantics and structural axioms.
+Defines the abstract structure of a deterministic system.
 
-The goal is formal precision and clarity rather than implementation guidance.
+- state space definition  
+- transition relation  
+- validity predicate  
+
+---
+
+### 2. Structural Axioms
+
+Defines invariant properties required for determinism.
+
+- totality of transition relation  
+- uniqueness of transition results  
+- validity preservation  
+
+---
+
+### 3. Execution Semantics
+
+Defines how deterministic systems evolve.
+
+- transition application  
+- execution sequences  
+- system trajectory  
+
+---
 
 ## Scope
 
-- Architecture-neutral  
-- Implementation-independent  
-- Storage-agnostic  
-- Environment-agnostic  
+This specification defines:
 
-Implementation concerns are outside the scope of this specification.
+- a formal deterministic system model  
+- structural constraints on transitions  
+- execution semantics of deterministic evolution  
+
+This specification does NOT define:
+
+- storage models  
+- encoding formats  
+- execution environments  
+- concurrency models  
+- time semantics  
+
+---
 
 ## Integrity
 
-The file CANONICAL_HASH.txt contains the SHA3-256 digest of the repository state corresponding to the current stable version tag.
+The file `CANONICAL_HASH.txt` contains the SHA3-256 digest of the repository state corresponding to the current stable version tag.
+
+---
 
 ## Status
 
 This repository contains the current stable version of the Deterministic System Specification.
-See the latest tagged release for the exact version number.
+
+See the latest tagged release for the exact version.
+
+---
 
 ## License
 
 This project is licensed under the MIT License.
 
 See the LICENSE file for details.
-
-## Author
-
-Jan Zdráhal
